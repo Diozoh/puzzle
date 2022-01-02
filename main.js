@@ -11,7 +11,7 @@ const PUZZLE_DIFFICULTY = 2;
   var _currentPiece;
   var _currentDropPiece;
   var _mouse;
-  init = src => {
+  let init = src => {
     _img = new Image();
     _img.addEventListener('load', onImage, {
       passive: true
